@@ -1,0 +1,35 @@
+@import "colors";
+
+header {
+  border-top: 4px solid #000;
+  color: #333;
+  border-bottom: 1px solid #ccc;
+  background: url("../images/computer_banner.jpg") fixed;
+  background-size: cover;
+  background-position: center -230px;
+
+  .background-film {
+    padding-top: 355px;
+    padding-bottom: 15px;
+    background:rgba(95, 61, 20, 0.56);
+    box-shadow: 0px -50px 150px -30px #000 inset;
+  }
+
+  h2 {
+    font-size: 3.4em;
+    font-weight: normal;
+    color: #fff;
+  }
+}
+
+#main {
+  padding: 10px 0 30px 0;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.2em;
+  padding: 20px 0 10px 0;
+  background: #123;
+  color: #fff;
+}
